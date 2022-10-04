@@ -1,0 +1,95 @@
+# 1
+# def plus_strings():
+#     num1 = input(" Write number : ")
+#     num2 = input(" Write number : ")
+#     num3 = input(" Write number : ")
+#     num4 = input(" Write number : ")
+#     num5 = input(" Write number : ")
+#     print(f"<< {num1}+{num2}+{num3}+{num4}+{num5} >>")
+#
+#
+# plus_strings()
+
+
+# 2
+# def validNumber():
+#     fail = "number is not valid"
+#     done = "number is valid"
+#     num = input("Write Phone : ")
+#
+#     if num[0:3].isdigit() and num[3] == "-" and num[4:7].isdigit() and num[7] == "-" and num[8:12].isdigit():
+#         return done
+#     if num[0].isdigit() and num[1] == "-" and num[2:5].isdigit() and num[5] == "-" and num[6:9].isdigit() and num[
+#         9] == "-" and num[10:14].isdigit():
+#         return done
+#     return fail
+#
+#
+# print(validNumber())
+
+
+# 3
+# def palindroms():
+#     pal = [n for n in range(100, 1000) if n // 100 == n % 10]
+#     print(pal)
+# palindroms()
+
+
+# 4
+# def percentage():
+#     L = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+#     L2=[L[n + 1] % L[n] - 1 for n in range(len(L)-1)]
+#     print(max(L2))
+#     for i in L2:
+#         if L2.count(i)/len(L2)*100==2:
+#             print(i)
+#
+#
+# percentage()
+
+# 5
+# def dict_items():
+#     done="more"
+#     dict={}
+#     while done=="more" or done=="More":
+#         product_name=input("Write product name : ")
+#         price_prod_name=int(input("Write the price od product : "))
+#         dict[product_name]=price_prod_name
+#         done=input(" If you want add more product write More : ")
+#     print(dict)
+#     returnPrice=input("Write the product name,which you want serach : ")
+#     for val in dict:
+#         if val==returnPrice:
+#             print(f"The price of product {val} is {dict[val]}.00 dram")
+# dict_items()
+
+# 6(a)
+# def exercises():
+#     di = [{'name': 'Todd', 'phone': '555-1414', 'email': 'todd@mail.net'},
+#           {'name': 'Helga', 'phone': '555-1618', 'email': 'helga@mail.net'},
+#           {'name': 'Princess', 'phone': '555-3141', 'email': ''},
+#           {'name': 'LJ', 'phone': '555-2718', 'email': 'lj@mail.net'}]
+#
+#     for i in di:
+#         if i["phone"].endswith("8"):
+#             print(i)
+#
+#
+# exercises()
+#7
+# import numpy as np
+# def matrix():
+#     data = np.random.randint(-10,10, size=(5,5))
+#     lst=[]
+#     print(data)
+#     dictionary={}
+#
+#     for i in data:
+#         for j in i:
+#            lst.append(j)
+#     for z in lst:
+#         a=lst[z]
+#         dictionary.update([(a,lst.count(a))])
+#     return dictionary
+# print(matrix())
+
