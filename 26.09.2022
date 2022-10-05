@@ -1,0 +1,60 @@
+import random
+
+
+# 1
+# def pound():
+#     kg = int(input("Write weight : "))
+#     p = 2.2
+#     return kg * p
+#
+#
+# print(pound())
+
+
+# 2
+# def generate():
+#     lst=[]
+#     for i in range(50):
+#         s=random.randint(3,6)
+#         lst.append(s)
+#     return lst
+# print(generate())
+
+
+# 3
+
+# def compute():
+#     x = int(input("Write first number : "))
+#     y = int(input("Write second number : "))
+#     return abs(x - y) / (x + y)
+#
+#
+# print(compute())
+
+# 4
+# def leapYear():
+#     year = int(input("Write year after 1600 : "))
+#     count = 0
+#     b = 1600
+#     while b != year:
+#         if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+#             count += 1
+#             b += 1
+#     return count
+#
+#
+# print(leapYear())
+
+#5
+
+# def perfectNumbers():
+#     for i in range(1, 10001):
+#         sum_div = 1
+#         for j in range(2, i):
+#             if i % j == 0 and j != i:
+#                 sum_div = sum_div + j
+#         if sum_div == i:
+#             print(i)
+# perfectNumbers()
+
+
