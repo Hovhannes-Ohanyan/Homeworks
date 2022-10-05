@@ -1,0 +1,20 @@
+# 1
+# dictionary={}
+# with open("file.txt") as file:
+#     for line in file:
+#         line = line.strip()
+#         key,value=line.split(" ")
+#         dictionary[key]=value
+#     print(dictionary)
+
+#2
+# def functions():
+#     line="Hello world"
+#     line=line.upper()
+#     print(line)
+#     lst=[1,2,3,4,5,9,1,2,3,4]
+#     lst=sorted(lst)
+#     print(lst)
+#     a=6
+#     print(66*a)
+# functions()
