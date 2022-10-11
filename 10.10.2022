@@ -1,0 +1,95 @@
+# 1.range function
+# def range(start,end,step_num):
+#     lst = [start]
+#     while start < end:
+#         start += step_num
+#         lst.append(start)
+#     lst.pop()
+#     return lst
+# print(range(0,6,1))
+
+# 2.map function
+# def map(func, *lst):
+#     result = []
+#     if len(lst) > 0:
+#         minimum = min(len(sublst) for sublst in lst)
+#         for i in range(minimum):
+#             result.append(func(*[sublst[i] for sublst in lst]))
+#     return result
+# print(map(abs,[1,2,3,4,5,-6]))
+
+# 3.zip function
+# def zip(x, y):
+#     zipper = []
+#     if len(x)<len(y):
+#         for i in range(len(x)):
+#             zipper.append((x[i], y[i]))
+#     else:
+#         for i in range(len(y)):
+#             zipper.append((x[i], y[i]))
+#
+#     return zipper
+
+# 4.enumerate function
+# def enumerate(sequence, start=0):
+#     return [(start + i, sequence[i]) for i in range(len(sequence))]
+#
+#
+# print(enumerate([1, 2, 3, 4, 5, 6]))
+
+
+# 5.filter function
+# def filter(function, lst):
+#     res = []
+#     for variable in lst:
+#         if function(variable):
+#             res.append(variable)
+#     return res
+#
+#
+# def is_odd(a):
+#     if a % 2 == 1:
+#         return True
+#     else:
+#         return False
+#
+#
+#
+# print(filter(is_odd,[1,2,3,4,5,6] ))
+
+
+#5
+# lst1 = [1, 4, 5, 6, 7, 9]
+# lst2 = [1, 2, 3, 5, 6, 7, 8]
+# len_lst1 = len(lst1)
+# len_lst2 = len(lst2)
+#
+# resault = []
+# i = 0
+# j = 0
+#
+# while i < len_lst1 and j < len_lst2:
+#     if lst1[i] < lst2[j]:
+#         resault.append(lst1[i])
+#         i += 1
+#
+#     else:
+#         resault.append(lst2[j])
+#         j += 1
+#
+# print(resault)
+
+#6
+# import n2w
+# num=int(input("Write number less 1015 : "))
+# print(n2w.convert(num))
+
+#7
+# def is_sorted(lst:list):
+#     if lst==sorted(lst):
+#         return True
+#     else:
+#         return False
+# print(is_sorted([1,2,40,4,5,6,7]))
+
+
